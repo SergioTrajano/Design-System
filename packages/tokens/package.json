@@ -1,15 +1,17 @@
 {
-  "name": "@igniteCall-ui/tokens",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "SergioTrajano",
-  "license": "ISC",
-  "devDependencies": {
-    "typescript": "^5.1.6"
-  }
+    "name": "@igniteCall-ui/tokens",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsup src/index.ts --format esm,cjs --dts",
+        "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
+    },
+    "keywords": [],
+    "author": "SergioTrajano",
+    "license": "ISC",
+    "devDependencies": {
+        "tsup": "^7.1.0",
+        "typescript": "^5.1.6"
+    }
 }
