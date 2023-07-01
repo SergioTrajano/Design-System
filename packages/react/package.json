@@ -1,5 +1,5 @@
 {
-    "name": "@igniteCall-ui/tokens",
+    "name": "@igniteCall-ui/react",
     "version": "1.0.0",
     "description": "",
     "main": "./dist/index.js",
@@ -11,9 +11,10 @@
         "lint": "eslint src/**/*.ts* --fix"
     },
     "keywords": [],
-    "author": "SergioTrajano",
+    "author": "",
     "license": "MIT",
     "devDependencies": {
+        "@igniteCall-ui/tokens": "*",
         "@igniteCall-ui/ts-config": "*",
         "@igniteCall-ui/eslint-config": "*",
         "tsup": "^7.1.0",

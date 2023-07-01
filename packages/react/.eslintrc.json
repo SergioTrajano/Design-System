@@ -1,0 +1,12 @@
+{
+    "extends": "@igniteCall-ui/eslint-config",
+    "rules": {
+        "prettier/prettier": [
+            "error",
+            {
+                "tabWidth": 4,
+                "skipBlankLines": true
+            }
+        ]
+    }
+}
