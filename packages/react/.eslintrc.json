@@ -7,9 +7,10 @@
                 "printWidth": 100,
                 "tabWidth": 4,
                 "singleQuote": false,
-                "trailingComma": "all",
+                "trailingComma": "es5",
                 "arrowParens": "always",
-                "semi": true
+                "semi": true,
+                "singleAttributePerLine": true
             }
         ]
     }
