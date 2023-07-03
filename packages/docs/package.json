@@ -25,9 +25,11 @@
         "vite": "^4.3.9"
     },
     "dependencies": {
-        "@igniteCall-ui/react": "*",
         "@igniteCall-ui/eslint-config": "*",
+        "@igniteCall-ui/ts-config": "*",
+        "@igniteCall-ui/react": "*",
         "@igniteCall-ui/tokens": "*",
+        "polished": "^4.2.2",
         "react": "^18.2.0",
         "react-dom": "^18.2.0"
     }
