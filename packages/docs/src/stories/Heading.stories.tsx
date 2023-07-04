@@ -11,11 +11,17 @@ export default {
     },
 } as Meta<HeadingProps>;
 
-export const Primary: StoryObj<HeadingProps> = {
+export const Primary: StoryObj<HeadingProps> = {};
+
+export const CustomTag: StoryObj<HeadingProps> = {
+    args: {
+        children: "H1 Heading",
+        as: "h1",
+    },
     parameters: {
         docs: {
             description: {
-                story: "Por padrão é 'h2', mas pode ser alterado com a prop 'as'",
+                story: "Por padrão o heading sempre será um `h2`, mas podemos alterar isso com a propriedade `as`.",
             },
         },
     },
