@@ -6,6 +6,11 @@ export default {
     title: "Surfaces/Box",
     component: Box,
     tags: ["autodocs"],
+    argTypes: {
+        children: {
+            control: { type: null },
+        },
+    },
     args: {
         children: <Text>Testando</Text>,
     },
