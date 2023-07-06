@@ -1,4 +1,4 @@
 {
-    "extends": "@igniteCall-ui/ts-config/base.json",
+    "extends": "@sergio-ignite-call-ui/ts-config/base.json",
     "include": ["src"]
 }
