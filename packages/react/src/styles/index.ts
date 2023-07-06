@@ -8,7 +8,7 @@ import {
     lineHeights,
     radii,
     space,
-} from "@igniteCall-ui/tokens";
+} from "@sergio-ignite-call-ui/tokens";
 
 export const { styled, css, globalCss, keyframes, getCssText, theme, createTheme, config } =
     createStitches({

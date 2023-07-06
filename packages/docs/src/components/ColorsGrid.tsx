@@ -1,4 +1,4 @@
-import { colors } from "@igniteCall-ui/tokens";
+import { colors } from "@sergio-ignite-call-ui/tokens";
 import { getContrast } from "polished";
 
 export function ColorsGrid() {

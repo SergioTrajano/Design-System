@@ -1,5 +1,5 @@
 {
-    "extends": "@igniteCall-ui/eslint-config",
+    "extends": "@sergio-ignite-call-ui/eslint-config",
     "rules": {
         "prettier/prettier": [
             "error",
