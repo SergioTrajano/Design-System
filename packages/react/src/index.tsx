@@ -4,3 +4,4 @@ export * from "./components/Button";
 export * from "./components/Heading";
 export * from "./components/TexInput";
 export * from "./components/Text";
+export * from "./components/TextArea";
