@@ -1,5 +1,5 @@
 {
-    "name": "@igniteCall-ui/docs",
+    "name": "@sergio-ignite-call-ui/docs",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -28,10 +28,10 @@
         "vite": "^4.3.9"
     },
     "dependencies": {
-        "@igniteCall-ui/eslint-config": "*",
-        "@igniteCall-ui/react": "*",
-        "@igniteCall-ui/tokens": "*",
-        "@igniteCall-ui/ts-config": "*",
+        "@sergio-ignite-call-ui/eslint-config": "*",
+        "@sergio-ignite-call-ui/react": "*",
+        "@sergio-ignite-call-ui/tokens": "*",
+        "@sergio-ignite-call-ui/ts-config": "*",
         "phosphor-react": "^1.4.1",
         "polished": "^4.2.2",
         "react": "^18.2.0",
