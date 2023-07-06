@@ -12,6 +12,7 @@
     "author": "",
     "license": "MIT",
     "devDependencies": {
+        "@storybook/addon-a11y": "^7.0.26",
         "@storybook/addon-essentials": "^7.0.24",
         "@storybook/addon-interactions": "^7.0.24",
         "@storybook/addon-links": "^7.0.24",
@@ -26,9 +27,10 @@
     },
     "dependencies": {
         "@igniteCall-ui/eslint-config": "*",
-        "@igniteCall-ui/ts-config": "*",
         "@igniteCall-ui/react": "*",
         "@igniteCall-ui/tokens": "*",
+        "@igniteCall-ui/ts-config": "*",
+        "phosphor-react": "^1.4.1",
         "polished": "^4.2.2",
         "react": "^18.2.0",
         "react-dom": "^18.2.0"
